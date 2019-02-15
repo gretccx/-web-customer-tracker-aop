@@ -43,7 +43,7 @@
 				<c:forEach var="tempCustomer" items="${customers}">
 				
 					<!-- construct an "update" link with customer id -->
-					<c:url var="updateLink" value="/customer/shwoFormForUpdate">
+					<c:url var="updateLink" value="/customer/showFormForUpdate">
 						<c:param name="customerId" value="${tempCustomer.id}" />
 					</c:url>
 					
